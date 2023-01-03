@@ -3,6 +3,11 @@
 version = 3
 
 [[package]]
+name = "aengine2"
+version = "0.1.0"
+source = "git+https://github.com/Alex-Stone-Github/aengine2#a92ec66f4129714201d1b5b3419721f28bde62f0"
+
+[[package]]
 name = "amath"
 version = "0.1.0"
 source = "git+https://github.com/Alex-Stone-Github/amath#cad1a1cfff5847a9742821ea73c43534d29a6615"
@@ -11,5 +16,6 @@ source = "git+https://github.com/Alex-Stone-Github/amath#cad1a1cfff5847a9742821e
 name = "simple-physics"
 version = "0.1.0"
 dependencies = [
+ "aengine2",
  "amath",
 ]

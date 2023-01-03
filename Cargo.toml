@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 amath = { git = "https://github.com/Alex-Stone-Github/amath" }
+aengine2 = { git = "https://github.com/Alex-Stone-Github/aengine2" }
